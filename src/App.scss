@@ -1,0 +1,58 @@
+.formation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.playerSlot {
+    border: 2px solid black;
+    height: 175px;
+    width: 275px;
+    display: grid;
+    place-items: center;
+    margin: 40px;
+    overflow-y: scroll;
+}
+
+.playerSearchSubmit {
+    margin-left: 10px;
+}
+
+.playerSearchInput {
+    width: 80px;
+}
+
+.playerBoxLeft {
+    img {
+        height: 175px
+    }
+}
+
+
+.playerBoxRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px;
+    
+    & > div {
+        margin-bottom: 8px;
+    }
+}
+
+.playerBox {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    // border: 2px solid black;
+    margin-right: 10px;
+}

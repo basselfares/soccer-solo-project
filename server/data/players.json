@@ -1,0 +1,18 @@
+[
+    {
+      "playerImage": "Test image",
+      "name": "Test name",
+      "dob": "01/12/2000",
+      "country": "Test Country",
+      "club": "Test Club",
+      "marketValue": 100000
+    },
+    {
+        "playerImage": "Test2image",
+        "name": "Test2name",
+        "dob": "01/12/2000",
+        "country": "Test2Country",
+        "club": "Test2Club",
+        "marketValue": 100000
+    }
+]
